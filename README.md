@@ -4,8 +4,7 @@ A quick hack to import 1Password items as provided from `op get item` into
 `pass` ([password store](https://www.passwordstore.org/)).
 
 Items are named as `/website-domain/username`. Content is the password, unless other
-fields have been discovered, other fields, in which case it is a multiline
-entry.
+fields have been discovered in which case it is made a multiline entry.
 
 No support for OTP or anything fancy.
 
